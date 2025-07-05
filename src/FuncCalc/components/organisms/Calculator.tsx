@@ -2,10 +2,10 @@
 
 import { useCallback, useEffect, useReducer, useState } from "react";
 import { FuncReducer } from "../../FuncReducer";
-import type { CalcType } from "../../../type/CalcType"; 
+import type { CalcType } from "../../type/CalcType"; 
 import { Trash2 } from "lucide-react";
 import { FormulaInput } from "../molecules/FormulaInput";
-import { Keypad } from "../molecules/keypad";
+import { Keypad } from "../molecules/Keypad";
 import { HistoryItem } from "../molecules/HistoryItems";
 import { EditForm } from "../molecules/EditForm";
 
