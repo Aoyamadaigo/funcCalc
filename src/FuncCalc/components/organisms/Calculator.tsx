@@ -113,8 +113,8 @@ export const Calculator = () => {
 
   return (
     <>
-      <div className="min-h-screen bg-slate-800 text-white flex flex-col md:flex-row items-center justify-center p-4 gap-6">
-        <div className="flex flex-col items-center w-full ">
+      <div className="min-h-screen  bg-slate-800 text-white flex flex-col md:flex-row items-center justify-center p-4 gap-6">
+        <div className="flex flex-col items-center  ">
           <FormulaInput value={state.formula} error={state.error} onClear={() => dispatch({ type: "CLEAR" })} />
           <p className="text-sm text-gray-300 mb-2">
             ※キーボードでも数式入力が可能です<br />Ex）Enter：計算結果を履歴に表示
